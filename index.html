@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <script src = "index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" media="screen"/>
+</head>
+<body>
+    <nav class = "navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </span>
+        <a href="#" class="logo">Sorting Visualizer</a>
+        <ul id="js-menu" class = "main-nav">
+        <li>
+        <form id="form">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange"><br>
+            <button type = "button" onclick="numlinegenerator()">Generate</button>
+        </form>
+        </li>
+        <li><button class="nav-links rand" type = "button" onclick = randomlinegenerator()>Random Generate</button></li>
+        <!-- <li><button class="nav-links" type = "button" onclick = bubblesort()>Bubble Sort</button></li>
+        <li><button class="nav-links" type = "button" onclick = selectionsort()>Selection Sort</button></li>
+        <li><button class="nav-links" type = "button" onclick = insertionsort()>Insertion Sort</button></li>
+        <li><button class="nav-links" type = "button" onclick = mergesort1()>Merge Sort</button></li>
+        <li><button class="nav-links" type = "button" onclick = quicksort1()>Quick Sort</button></li> -->
+    </ul>
+    </nav>
+    <div id = "container" class = "container">    </div>
+
+        <nav class="menu">
+            <ul>
+              <li><button class="nav-links" type = "button" onclick = bubblesort()>Bubble Sort</button></li>
+              <li><button class="nav-links" type = "button" onclick = selectionsort()>Selection Sort</button></li>
+              <li><button class="nav-links" type = "button" onclick = insertionsort()>Insertion Sort</button></li>
+              <li><button class="nav-links" type = "button" onclick = mergesort1()>Merge Sort</button></li>
+              <li><button class="nav-links" type = "button" onclick = quicksort1()>Quick Sort</button></li>
+            </ul>
+          </nav>
+    <br>
+
+
+</body>
+</html>
