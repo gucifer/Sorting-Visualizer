@@ -1,2 +1,2 @@
 # Sorting-Visualizer
-![alt text](![alt text](http://url/to/img.png))
+![alt text](https://github.com/gucifer/Sorting-Visualizer/blob/master/project.png?raw=true)
